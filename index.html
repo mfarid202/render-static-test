@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Render Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f6fb;
+      color: #172033;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    main {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 8px 30px #0001;
+      max-width: 420px;
+    }
+    button {
+      background: #635bff;
+      color: white;
+      border: 0;
+      border-radius: 8px;
+      padding: 12px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>It works!</h1>
+    <p>My first website hosted on Render.</p>
+    <button onclick="document.getElementById('result').textContent =
+      'Deployment successful!'">
+      Test website
+    </button>
+    <p id="result"></p>
+  </main>
+</body>
+</html>
